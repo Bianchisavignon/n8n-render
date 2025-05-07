@@ -1,0 +1,13 @@
+services:
+– type: web
+name: n8n
+runtime: docker
+plan: free
+env: docker
+envVars:
+– key: N8N_BASIC_AUTH_ACTIVE
+value: “true”
+– key: N8N_BASIC_AUTH_USER
+value: “bianchi.gbs@gmail.com”
+– key: N8N_BASIC_AUTH_PASSWORD
+value: “Gugu.28122005”
